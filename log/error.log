@@ -1,0 +1,51 @@
+2021/09/09 20:12:20 [notice] 1#1: using the "epoll" event method
+2021/09/09 20:12:20 [notice] 1#1: nginx/1.21.3
+2021/09/09 20:12:20 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/09/09 20:12:20 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/09/09 20:12:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/09/09 20:12:20 [notice] 1#1: start worker processes
+2021/09/09 20:12:20 [notice] 1#1: start worker process 23
+2021/09/09 20:12:20 [notice] 1#1: start worker process 24
+2021/09/09 20:12:20 [notice] 1#1: start worker process 25
+2021/09/09 20:12:20 [notice] 1#1: start worker process 26
+2021/09/09 20:12:39 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8005/", host: "localhost"
+2021/09/09 20:12:39 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8005/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2021/09/09 20:18:09 [notice] 1#1: using the "epoll" event method
+2021/09/09 20:18:09 [notice] 1#1: nginx/1.21.3
+2021/09/09 20:18:09 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/09/09 20:18:09 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/09/09 20:18:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/09/09 20:18:09 [notice] 1#1: start worker processes
+2021/09/09 20:18:09 [notice] 1#1: start worker process 23
+2021/09/09 20:18:09 [notice] 1#1: start worker process 24
+2021/09/09 20:18:09 [notice] 1#1: start worker process 25
+2021/09/09 20:18:09 [notice] 1#1: start worker process 26
+2021/09/09 20:18:49 [notice] 1#1: using the "epoll" event method
+2021/09/09 20:18:49 [notice] 1#1: nginx/1.21.3
+2021/09/09 20:18:49 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/09/09 20:18:49 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/09/09 20:18:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/09/09 20:18:49 [notice] 1#1: start worker processes
+2021/09/09 20:18:49 [notice] 1#1: start worker process 23
+2021/09/09 20:18:49 [notice] 1#1: start worker process 24
+2021/09/09 20:18:49 [notice] 1#1: start worker process 25
+2021/09/09 20:18:49 [notice] 1#1: start worker process 26
+2021/09/09 20:40:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/09/09 20:40:14 [notice] 25#25: gracefully shutting down
+2021/09/09 20:40:14 [notice] 23#23: gracefully shutting down
+2021/09/09 20:40:14 [notice] 26#26: gracefully shutting down
+2021/09/09 20:40:14 [notice] 23#23: exiting
+2021/09/09 20:40:14 [notice] 24#24: gracefully shutting down
+2021/09/09 20:40:14 [notice] 24#24: exiting
+2021/09/09 20:40:14 [notice] 25#25: exiting
+2021/09/09 20:40:14 [notice] 26#26: exiting
+2021/09/09 20:40:14 [notice] 23#23: exit
+2021/09/09 20:40:14 [notice] 24#24: exit
+2021/09/09 20:40:14 [notice] 25#25: exit
+2021/09/09 20:40:14 [notice] 26#26: exit
+2021/09/09 20:40:14 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/09/09 20:40:14 [notice] 1#1: worker process 24 exited with code 0
+2021/09/09 20:40:14 [notice] 1#1: worker process 23 exited with code 0
+2021/09/09 20:40:14 [notice] 1#1: worker process 25 exited with code 0
+2021/09/09 20:40:14 [notice] 1#1: worker process 26 exited with code 0
+2021/09/09 20:40:14 [notice] 1#1: exit

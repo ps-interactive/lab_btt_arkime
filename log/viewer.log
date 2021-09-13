@@ -1,0 +1,199 @@
+It is STRONGLY recommended that you stop ALL Arkime captures and viewers before proceeding.  Use 'db.pl http://elasticsearch:9200 backup' to backup db first.
+
+There is 1 elastic search data node, if you expect more please fix first before proceeding.
+
+This is a fresh Arkime install
+Erasing
+Creating
+
+
+Finished
+Express server listening on port 8005 in development mode
+Thu, 09 Sep 2021 20:12:54 GMT - [1mGET[0m [33m/[0m 401 - bytes 9.249 ms
+Thu, 09 Sep 2021 20:13:05 GMT - [1mGET[0m [33m/[0m 401 - bytes 0.969 ms
+Thu, 09 Sep 2021 20:13:38 GMT root [1mGET[0m [33m/[0m 302 60 bytes 68.640 ms
+Thu, 09 Sep 2021 20:13:38 GMT root [1mGET[0m [33m/sessions[0m 200 - bytes 54.902 ms
+Thu, 09 Sep 2021 20:13:38 GMT - [1mGET[0m [33m/font-awesome/css/font-awesome.min.css[0m 200 - bytes 19.550 ms
+Thu, 09 Sep 2021 20:13:38 GMT root [1mGET[0m [33m/static/js/runtime.e6f3d3bc53c92efd1f1b.js[0m 200 - bytes 23.558 ms
+Thu, 09 Sep 2021 20:13:38 GMT root [1mGET[0m [33m/static/css/app.2e18480a8756a04cb7ad.css[0m 200 - bytes 22.518 ms
+Thu, 09 Sep 2021 20:13:38 GMT root [1mGET[0m [33m/static/css/vendor.2e18480a8756a04cb7ad.css[0m 200 - bytes 26.867 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/static/js/2.5a241e770a5fdca4fea5.js[0m 200 - bytes 25.052 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/static/js/0.6a2fedf71b4f483e3e11.js[0m 200 - bytes 22.123 ms
+Thu, 09 Sep 2021 20:13:39 GMT - [1mGET[0m [33m/logos/Arkime_Logo_Mark_White.png[0m 200 2525 bytes 10.409 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/user/current[0m 200 591 bytes 6.972 ms
+Thu, 09 Sep 2021 20:13:39 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 32.163 ms
+Thu, 09 Sep 2021 20:13:39 GMT - [1mGET[0m [33m/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0[0m 200 77160 bytes 3.788 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/state/sessionsColWidths[0m 200 2 bytes 5.753 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/state/sessionsNew[0m 200 2 bytes 10.483 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/user/columns[0m 200 2 bytes 20.984 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/molochclusters[0m 200 2 bytes 27.197 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/user/views[0m 200 2 bytes 40.573 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/state/fieldHistory[0m 200 2 bytes 5.135 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/fields[0m 200 - bytes 6.419 ms
+Thu, 09 Sep 2021 20:13:39 GMT - [1mGET[0m [33m/logos/Arkime_Logo_Mark_FullGradient.png[0m 200 4500 bytes 10.632 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/fields[0m 304 - bytes 1.829 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/stats.json[0m 200 48 bytes 187.428 ms
+Thu, 09 Sep 2021 20:13:39 GMT root [1mGET[0m [33m/sessions.json?flatten=1&length=50&facets=1&bounding=last&interval=auto&cancelId=346feef5-e922-4156-9035-bba06cdbc1d5&startTime=1631214819&stopTime=1631218419&order=firstPacket:desc&fields=ipProtocol,firstPacket,lastPacket,srcIp,srcGEO,srcPort,dstIp,dstGEO,dstPort,totPackets,totDataBytes,totBytes,node[0m 200 813 bytes 58.239 ms
+Thu, 09 Sep 2021 20:13:49 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.283 ms
+Thu, 09 Sep 2021 20:13:59 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.989 ms
+Thu, 09 Sep 2021 20:14:09 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.056 ms
+Thu, 09 Sep 2021 20:14:19 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.688 ms
+It is STRONGLY recommended that you stop ALL Arkime captures and viewers before proceeding.  Use 'db.pl http://elasticsearch:9200 backup' to backup db first.
+
+There is 1 elastic search data node, if you expect more please fix first before proceeding.
+
+This is a fresh Arkime install
+Erasing
+Creating
+
+
+Finished
+Express server listening on port 8005 in development mode
+Thu, 09 Sep 2021 20:19:18 GMT - [1mGET[0m [33m/[0m 401 - bytes 7.533 ms
+User root doesn't exist
+Thu, 09 Sep 2021 20:19:51 GMT - [1mGET[0m [33m/[0m 401 - bytes 22.303 ms
+Thu, 09 Sep 2021 20:19:55 GMT user [1mGET[0m [33m/[0m 302 60 bytes 53.004 ms
+Thu, 09 Sep 2021 20:19:55 GMT user [1mGET[0m [33m/sessions[0m 200 - bytes 59.972 ms
+Thu, 09 Sep 2021 20:19:55 GMT user [1mGET[0m [33m/static/css/app.2e18480a8756a04cb7ad.css[0m 304 - bytes 11.096 ms
+Thu, 09 Sep 2021 20:19:55 GMT user [1mGET[0m [33m/static/css/vendor.2e18480a8756a04cb7ad.css[0m 304 - bytes 14.863 ms
+Thu, 09 Sep 2021 20:19:55 GMT user [1mGET[0m [33m/static/js/2.5a241e770a5fdca4fea5.js[0m 304 - bytes 14.913 ms
+Thu, 09 Sep 2021 20:19:55 GMT user [1mGET[0m [33m/static/js/runtime.e6f3d3bc53c92efd1f1b.js[0m 304 - bytes 15.950 ms
+Thu, 09 Sep 2021 20:19:55 GMT user [1mGET[0m [33m/static/js/0.6a2fedf71b4f483e3e11.js[0m 304 - bytes 19.482 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/user/current[0m 200 591 bytes 4.293 ms
+Thu, 09 Sep 2021 20:19:56 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 21.654 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/state/sessionsColWidths[0m 200 2 bytes 6.552 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/state/sessionsNew[0m 200 2 bytes 24.821 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/user/columns[0m 200 2 bytes 6.441 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/molochclusters[0m 304 - bytes 22.434 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/fields[0m 304 - bytes 5.047 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/user/views[0m 200 2 bytes 40.184 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/state/fieldHistory[0m 200 2 bytes 15.288 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/fields[0m 304 - bytes 2.474 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/stats.json[0m 200 - bytes 309.647 ms
+Thu, 09 Sep 2021 20:19:56 GMT user [1mGET[0m [33m/sessions.json?flatten=1&length=50&facets=1&bounding=last&interval=auto&cancelId=09cbbba9-e5e0-4726-8d31-806b27c37c71&startTime=1631215196&stopTime=1631218796&order=firstPacket:desc&fields=ipProtocol,firstPacket,lastPacket,srcIp,srcGEO,srcPort,dstIp,dstGEO,dstPort,totPackets,totDataBytes,totBytes,node[0m 200 813 bytes 105.876 ms
+Thu, 09 Sep 2021 20:20:06 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.232 ms
+Thu, 09 Sep 2021 20:20:08 GMT user [1mGET[0m [33m/sessions.json?flatten=1&length=50&facets=1&bounding=last&interval=auto&cancelId=f095cea8-1bcd-48f6-a60d-3433041e5a84&date=-1&order=firstPacket:desc&fields=ipProtocol,firstPacket,lastPacket,srcIp,srcGEO,srcPort,dstIp,dstGEO,dstPort,totPackets,totDataBytes,totBytes,node[0m 200 797 bytes 37.212 ms
+Thu, 09 Sep 2021 20:20:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.434 ms
+Thu, 09 Sep 2021 20:20:22 GMT user [1mGET[0m [33m/sessions.json?flatten=1&length=50&facets=1&bounding=last&interval=auto&cancelId=2ede02c0-621d-4860-8d10-cddb4b845af2&startTime=1599682822&stopTime=1631218822&order=firstPacket:desc&fields=ipProtocol,firstPacket,lastPacket,srcIp,srcGEO,srcPort,dstIp,dstGEO,dstPort,totPackets,totDataBytes,totBytes,node[0m 200 815 bytes 53.474 ms
+Thu, 09 Sep 2021 20:20:25 GMT user [1mGET[0m [33m/sessions.json?flatten=1&length=50&facets=1&bounding=last&interval=auto&cancelId=26eeffe1-f0ad-4e09-870c-a3e06d4dd295&date=-1&order=firstPacket:desc&fields=ipProtocol,firstPacket,lastPacket,srcIp,srcGEO,srcPort,dstIp,dstGEO,dstPort,totPackets,totDataBytes,totBytes,node[0m 200 - bytes 43.258 ms
+Thu, 09 Sep 2021 20:20:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.959 ms
+Thu, 09 Sep 2021 20:20:29 GMT user [1mGET[0m [33m/sessions.json?flatten=1&length=50&facets=1&bounding=last&interval=auto&cancelId=f5d32bfb-a6d0-4f50-bd49-71f6666ecd1a&startTime=1631215229&stopTime=1631218829&order=firstPacket:desc&fields=ipProtocol,firstPacket,lastPacket,srcIp,srcGEO,srcPort,dstIp,dstGEO,dstPort,totPackets,totDataBytes,totBytes,node[0m 200 813 bytes 24.435 ms
+Thu, 09 Sep 2021 20:20:32 GMT user [1mGET[0m [33m/sessions.json?flatten=1&length=50&facets=1&bounding=last&interval=auto&cancelId=5e955b8b-39cf-4900-b969-c29d3f2fdee0&date=-1&order=firstPacket:desc&fields=ipProtocol,firstPacket,lastPacket,srcIp,srcGEO,srcPort,dstIp,dstGEO,dstPort,totPackets,totDataBytes,totBytes,node[0m 200 - bytes 33.163 ms
+Thu, 09 Sep 2021 20:20:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.729 ms
+Thu, 09 Sep 2021 20:20:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.062 ms
+Thu, 09 Sep 2021 20:20:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.388 ms
+Thu, 09 Sep 2021 20:21:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.397 ms
+Thu, 09 Sep 2021 20:21:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 11.833 ms
+Thu, 09 Sep 2021 20:21:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.472 ms
+Thu, 09 Sep 2021 20:21:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.294 ms
+Thu, 09 Sep 2021 20:21:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.983 ms
+Thu, 09 Sep 2021 20:21:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.041 ms
+Thu, 09 Sep 2021 20:22:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 13.120 ms
+Thu, 09 Sep 2021 20:22:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.024 ms
+Thu, 09 Sep 2021 20:22:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.765 ms
+Thu, 09 Sep 2021 20:22:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.227 ms
+Thu, 09 Sep 2021 20:22:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 11.098 ms
+Thu, 09 Sep 2021 20:22:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.253 ms
+Thu, 09 Sep 2021 20:23:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 13.950 ms
+Thu, 09 Sep 2021 20:23:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.510 ms
+Thu, 09 Sep 2021 20:23:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.683 ms
+Thu, 09 Sep 2021 20:23:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.994 ms
+Thu, 09 Sep 2021 20:23:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.261 ms
+Thu, 09 Sep 2021 20:23:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.810 ms
+Thu, 09 Sep 2021 20:24:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.501 ms
+Thu, 09 Sep 2021 20:24:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.526 ms
+Thu, 09 Sep 2021 20:24:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.899 ms
+Thu, 09 Sep 2021 20:24:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.178 ms
+Thu, 09 Sep 2021 20:24:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.856 ms
+Thu, 09 Sep 2021 20:24:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.781 ms
+Thu, 09 Sep 2021 20:25:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.785 ms
+Thu, 09 Sep 2021 20:25:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 14.248 ms
+Thu, 09 Sep 2021 20:25:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.780 ms
+Thu, 09 Sep 2021 20:25:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.077 ms
+Thu, 09 Sep 2021 20:25:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.485 ms
+Thu, 09 Sep 2021 20:25:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.999 ms
+Thu, 09 Sep 2021 20:26:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.996 ms
+Thu, 09 Sep 2021 20:26:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.995 ms
+Thu, 09 Sep 2021 20:26:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.804 ms
+Thu, 09 Sep 2021 20:26:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.875 ms
+Thu, 09 Sep 2021 20:26:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.696 ms
+Thu, 09 Sep 2021 20:26:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.534 ms
+Thu, 09 Sep 2021 20:27:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.134 ms
+Thu, 09 Sep 2021 20:27:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.419 ms
+Thu, 09 Sep 2021 20:27:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 11.228 ms
+Thu, 09 Sep 2021 20:27:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.329 ms
+Thu, 09 Sep 2021 20:27:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.104 ms
+Thu, 09 Sep 2021 20:27:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.862 ms
+Thu, 09 Sep 2021 20:28:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.168 ms
+Thu, 09 Sep 2021 20:28:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.329 ms
+Thu, 09 Sep 2021 20:28:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 13.105 ms
+Thu, 09 Sep 2021 20:28:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.999 ms
+Thu, 09 Sep 2021 20:28:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.841 ms
+Thu, 09 Sep 2021 20:28:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.018 ms
+Thu, 09 Sep 2021 20:29:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.303 ms
+Thu, 09 Sep 2021 20:29:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.054 ms
+Thu, 09 Sep 2021 20:29:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.736 ms
+Thu, 09 Sep 2021 20:29:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.054 ms
+Thu, 09 Sep 2021 20:29:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 6.777 ms
+Thu, 09 Sep 2021 20:29:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.053 ms
+Thu, 09 Sep 2021 20:30:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.923 ms
+Thu, 09 Sep 2021 20:30:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 16.869 ms
+Thu, 09 Sep 2021 20:30:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.061 ms
+Thu, 09 Sep 2021 20:30:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.844 ms
+Thu, 09 Sep 2021 20:30:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.409 ms
+Thu, 09 Sep 2021 20:30:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.976 ms
+Thu, 09 Sep 2021 20:31:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.771 ms
+Thu, 09 Sep 2021 20:31:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.613 ms
+Thu, 09 Sep 2021 20:31:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.051 ms
+Thu, 09 Sep 2021 20:31:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.961 ms
+Thu, 09 Sep 2021 20:31:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.105 ms
+Thu, 09 Sep 2021 20:31:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.791 ms
+Thu, 09 Sep 2021 20:32:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 11.505 ms
+Thu, 09 Sep 2021 20:32:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 11.755 ms
+Thu, 09 Sep 2021 20:32:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.748 ms
+Thu, 09 Sep 2021 20:32:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.339 ms
+Thu, 09 Sep 2021 20:32:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.609 ms
+Thu, 09 Sep 2021 20:32:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 12.611 ms
+Thu, 09 Sep 2021 20:33:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.290 ms
+Thu, 09 Sep 2021 20:33:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.253 ms
+Thu, 09 Sep 2021 20:33:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.630 ms
+Thu, 09 Sep 2021 20:33:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.290 ms
+Thu, 09 Sep 2021 20:33:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.701 ms
+Thu, 09 Sep 2021 20:33:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.397 ms
+Thu, 09 Sep 2021 20:34:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.874 ms
+Thu, 09 Sep 2021 20:34:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.530 ms
+Thu, 09 Sep 2021 20:34:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.615 ms
+Thu, 09 Sep 2021 20:34:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.619 ms
+Thu, 09 Sep 2021 20:34:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 13.136 ms
+Thu, 09 Sep 2021 20:34:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.320 ms
+Thu, 09 Sep 2021 20:35:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.131 ms
+Thu, 09 Sep 2021 20:35:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.575 ms
+Thu, 09 Sep 2021 20:35:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 6.177 ms
+Thu, 09 Sep 2021 20:35:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 4.244 ms
+Thu, 09 Sep 2021 20:35:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.178 ms
+Thu, 09 Sep 2021 20:35:56 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 20.746 ms
+Thu, 09 Sep 2021 20:36:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.973 ms
+Thu, 09 Sep 2021 20:36:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.745 ms
+Thu, 09 Sep 2021 20:36:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.877 ms
+Thu, 09 Sep 2021 20:36:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.936 ms
+Thu, 09 Sep 2021 20:36:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.457 ms
+Thu, 09 Sep 2021 20:36:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.896 ms
+Thu, 09 Sep 2021 20:37:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.980 ms
+Thu, 09 Sep 2021 20:37:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.057 ms
+Thu, 09 Sep 2021 20:37:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.844 ms
+Thu, 09 Sep 2021 20:37:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.923 ms
+Thu, 09 Sep 2021 20:37:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.255 ms
+Thu, 09 Sep 2021 20:37:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 11.383 ms
+Thu, 09 Sep 2021 20:38:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.201 ms
+Thu, 09 Sep 2021 20:38:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 6.998 ms
+Thu, 09 Sep 2021 20:38:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 7.411 ms
+Thu, 09 Sep 2021 20:38:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.196 ms
+Thu, 09 Sep 2021 20:38:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.221 ms
+Thu, 09 Sep 2021 20:38:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.887 ms
+Thu, 09 Sep 2021 20:39:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 1.948 ms
+Thu, 09 Sep 2021 20:39:15 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 8.786 ms
+Thu, 09 Sep 2021 20:39:25 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 9.120 ms
+Thu, 09 Sep 2021 20:39:35 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 0.780 ms
+Thu, 09 Sep 2021 20:39:45 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 10.919 ms
+Thu, 09 Sep 2021 20:39:55 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 13.820 ms
+Thu, 09 Sep 2021 20:40:05 GMT - [1mGET[0m [33m/eshealth.json[0m 200 457 bytes 2.243 ms

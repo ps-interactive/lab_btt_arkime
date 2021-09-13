@@ -1,0 +1,60 @@
+version: '3'
+networks:
+  internal:
+    driver: bridge 
+  external:
+    driver: bridge
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.1
+    hostname: elasticsearch
+    environment:
+      - discovery.type=single-node
+    networks: 
+      - internal
+
+  viewer:
+    image: zachroofsec/arkime
+    hostname: viewer
+    environment:
+      - ARKIME_USER=root
+      - ARKIME_PSWD=arkime-pswd
+    depends_on:
+      - elasticsearch
+    volumes:
+      - ./log:/arkime/log
+    networks:
+      - internal
+    entrypoint: /arkime/bin/viewer.sh
+
+  import:
+    image: zachroofsec/arkime
+    hostname: import
+    depends_on:
+      - elasticsearch
+      - viewer
+    environment:
+      - ARKIME_USER=username
+      - ARKIME_PSWD=password
+    volumes:
+      - ./log:/arkime/log
+      - ./import:/import
+    networks:
+      - internal
+    entrypoint: /arkime/bin/import.sh
+
+  nginx:
+    image: nginx:mainline-alpine
+    hostname: nginx
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d:ro
+      - ./ssl:/ssl:ro
+      - ./log:/var/log/nginx:rw
+    depends_on:
+      - viewer
+    networks: 
+      - internal
+      - external
+    ports:
+      - 8005:80
